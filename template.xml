@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="Bdelka">
+  <asListNew>
+    <AS name="АС #1" code="AS1">
+      <tksNum name="36242" />
+      <tksNum name="36332" />
+      <tksNum name="3645" />
+    </AS>
+    <AS name="АС #2" code="AS2">
+      <tksNum name="3625" />
+      <tksNum name="36353" />
+      <tksNum name="36432" />
+    </AS>
+    <AS name="АС #3" code="AS3">
+      <tksNum name="36254" />
+      <tksNum name="36463" />
+      <tksNum name="31264" />
+    </AS>
+    <AS name="АС #4" code="AS4">
+      <tksNum name="36253" />
+      <tksNum name="36533" />
+      <tksNum name="36234" />
+    </AS>
+    <AS name="АС #5" code="AS5">
+      <tksNum name="36532" />
+      <tksNum name="36533" />
+      <tksNum name="36453" />
+    </AS>
+    <AS name="АС #6" code="AS6">
+      <tksNum name="36235" />
+      <tksNum name="36233" />
+      <tksNum name="36644" />
+    </AS>
+    <AS name="АС #7" code="AS7">
+      <tksNum name="773231" />
+      <ci>CI002222221</ci>
+      <ci>CI00323232</ci>
+      <ci>CI323232</ci>
+      <wgsm>informat</wgsm>
+    </AS>
+    <AS name="АС #8" code="AS8">
+      <tksNum name="773231" />
+      <ci>CI002222221</ci>
+      <ci>CI00323232</ci>
+      <ci>CI323232</ci>
+      <wgsm>informat</wgsm>
+    </AS>
+  </asListNew>
+  <Reciepients>
+    <list code="AS1" reason="real">
+      <copy>asa@mail.ru;dasd@bk.ru;dasddwa@bk.ru;dasd@nk.ru;</copy>
+      <numbers>
+      </numbers>
+    </list>
+    <list code="AS2" reason="real">
+      <copy>test1@mail.ru;test2@bk.ru;test3@bk.ru;test4@nk.ru;</copy>
+    </list>
+    <list code="AS3" reason="real">
+      <copy>qweqwe1@mail.ru;qweqwe2@bk.ru;qweqwe3@bk.ru;qweqwe4@nk.ru;</copy>
+    </list>
+    <list code="AS4" reason="real">
+      <copy>dfdf4@mail.ru;dfdf1@bk.ru;dfdf3@bk.ru;dfdf2@nk.ru;</copy>
+      <numbers>88005553535, 121212212121</numbers>
+    </list>
+    <list code="AS5" reason="real">
+      <copy>xxx43@mail.ru;xxx45@bk.ru;xxx1@bk.ru;xxx0@nk.ru;</copy>
+      <numbers>88005553535,7777777777</numbers>
+    </list>
+    <list code="AS6" reason="real">
+      <copy>zzz5@mail.ru;zzzz1@bk.ru;xxx3@bk.ru;ccc7@nk.ru;</copy>
+      <numbers>88005553535,54354,4343,</numbers>
+    </list>
+    <list code="AS7" reason="real">
+      <copy>dada1@mail.ru;dada4@bk.ru;dsd2@bk.ru;test2@nk.ru;</copy>
+    </list>
+  </Reciepients>
+  <themeList>
+    <theme name="Инцидент" reason="real" message="inc" />
+    <theme name="Высокий инцидент" reason="hight" message="inc" />
+    <theme name="Подозрение на инцидент" reason="real" message="inc" />
+    <theme name="Закрыт инцидент" reason="real" message="close" />
+    <theme name="Учебный инцидент" reason="learn" message="inc" />
+    <theme name="Переход в SI" reason="real" message="SI" needInc="false" />
+    <theme name="Выход из SI" reason="real" message="SI" needInc="false" />
+  </themeList>
+  <Reciepients>
+    <list code="AS8" reason="real">
+      <copy>xxx43@mail.ru;xxx45@bk.ru;xxx1@bk.ru;xxx0@nk.ru;dada1@mail.ru;dada4@bk.ru;dsd2@bk.ru;test2@nk.ru;</copy>
+    </list>
+  </Reciepients>
+</Project>
