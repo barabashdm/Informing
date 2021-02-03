@@ -1,5 +1,6 @@
 # Informing
 26.01.2021 c# app
+
 ![Иллюстрация к проекту](https://github.com/barabashdm/Informing/blob/master/screenshot.PNG)
 
 Мануал https://github.com/barabashdm/Informing/blob/master/manual.pdf
